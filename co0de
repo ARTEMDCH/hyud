@@ -1,0 +1,7 @@
+int n;
+cout<<"Matrix size: ";
+cin>>n;
+int **ptr;
+ptr = new int*[n];//создание
+for(int i = 0; i < n; i++) 
+ptr[i]=new int[n];
